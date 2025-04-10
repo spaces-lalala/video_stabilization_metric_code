@@ -50,3 +50,7 @@ This paper references multiple methods including:
 **Paper**: [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/), ICCV 2021
 
 Measures the stability and smoothness of the stabilized video, with implementation derived from DIFRINT.
+
+---
+
+**Important**: The method descriptions in this document have been condensed from the original papers and were generated with the assistance of AI LLM models. Please use with caution and refer to the original papers for complete and accurate information.

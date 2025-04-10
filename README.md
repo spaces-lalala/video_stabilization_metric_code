@@ -41,3 +41,5 @@ For details on other methods based on Bundled Camera Paths and MeshFlow, see [De
 - Some official implementations don't include the evaluation metrics code
 - The calculation of certain metrics might fail and result in NaN or values larger than 1.0 when evaluating some stabilization methods, due to lack of feature points or homography estimation failures
 - For accurate comparisons, it's recommended to only average scores from video sequences where all compared methods successfully pass the metric calculations
+
+**Important**: The method descriptions in this repository have been condensed from the original papers and were generated with the assistance of AI LLM models. Please use with caution and refer to the original papers for complete and accurate information.
