@@ -1,10 +1,21 @@
 # Video Stabilization Evaluation Metrics
 
-This repository contains information about evaluation metrics for video stabilization algorithms, with a specific focus on stability score measurements. These metrics are crucial for quantitatively assessing the performance of different video stabilization techniques.
+A comprehensive collection of stability score metrics for evaluating video stabilization algorithms, including detailed definitions from key research papers and links to public implementations.
 
 ## Table of Contents
-- [Stability Score Definitions](#stability-score-definitions)
 - [Public Implementations](#public-implementations)
+- [Stability Score Definitions](#stability-score-definitions)
+
+## Public Implementations
+
+| Year | Method | Publication | Paper | Code Link |
+|------|--------|------------|-------|-----------|
+| 2016 | MeshFlow | ECCV | [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf) | [GitHub (Unofficial)](https://github.com/how4rd/meshflow/blob/master/meshflowstabilizer.py) |
+| 2019 | Deep Online Video Stabilization | IEEE TIP | [Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning](https://ieeexplore.ieee.org/document/8554287) | [GitHub (Unofficial)](https://github.com/btxviny/StabNet/blob/main/metrics.py) |
+| 2019 | DIFRINT | ICCVW/TOG | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) |
+| 2021 | FuSta | ICCV | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) |
+| 2022 | Deep Online Fused | WACV | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |
+| 2023 | NNDVS | ICCV | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) |
 
 ## Stability Score Definitions
 
@@ -74,17 +85,6 @@ This paper references multiple methods including:
 **Paper**: [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/), ICCV 2021
 
 Measures the stability and smoothness of the stabilized video, with implementation derived from DIFRINT.
-
-## Public Implementations
-
-| Year | Method | Publication | Paper | Code Link |
-|------|--------|------------|-------|-----------|
-| 2016 | MeshFlow | ECCV | [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf) | [GitHub (Unofficial)](https://github.com/how4rd/meshflow/blob/master/meshflowstabilizer.py) |
-| 2019 | Deep Online Video Stabilization | IEEE TIP | [Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning](https://ieeexplore.ieee.org/document/8554287) | [GitHub (Unofficial)](https://github.com/btxviny/StabNet/blob/main/metrics.py) |
-| 2019 | DIFRINT | ICCVW/TOG | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) |
-| 2021 | FuSta | ICCV | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) |
-| 2022 | Deep Online Fused | WACV | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |
-| 2023 | NNDVS | ICCV | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) |
 
 ## Notes
 - Some official implementations don't include the evaluation metrics code
