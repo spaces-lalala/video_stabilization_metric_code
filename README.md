@@ -1,5 +1,7 @@
 # Video Stabilization Evaluation Metrics
 
+> **Note**: This repository is continuously being updated. If you notice any errors or have information to contribute, please feel free to contact me.
+
 A comprehensive collection of stability score metrics for evaluating video stabilization algorithms, including detailed definitions from key research papers and links to public implementations.
 
 ## Table of Contents
