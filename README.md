@@ -2,7 +2,7 @@
 
 > **Note**: This repository is continuously being updated. If you notice any errors or have information to contribute, please feel free to contact me.
 
-A comprehensive collection of stability score metrics for evaluating video stabilization algorithms, including detailed definitions from key research papers and links to public implementations.
+A collection of "stability_score" metrics for evaluating video stabilization algorithms, including detailed definitions from key research papers and links to public implementations.
 
 ## Table of Contents
 - [Public Implementations](#public-implementations)
@@ -10,14 +10,14 @@ A comprehensive collection of stability score metrics for evaluating video stabi
 
 ## Public Implementations
 
-| Year | Method | Publication | Paper | Code Link |
-|------|--------|------------|-------|-----------|
-| 2016 | MeshFlow | ECCV | [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf) | [GitHub (Unofficial)](https://github.com/how4rd/meshflow/blob/master/meshflowstabilizer.py) |
-| 2019 | Deep Online Video Stabilization | IEEE TIP | [Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning](https://ieeexplore.ieee.org/document/8554287) | [GitHub (Unofficial)](https://github.com/btxviny/StabNet/blob/main/metrics.py) |
-| 2019 | DIFRINT | ICCVW/TOG | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) |
-| 2021 | FuSta | ICCV | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) |
-| 2022 | Deep Online Fused | WACV | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |
-| 2023 | NNDVS | ICCV | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) |
+| Publication | Year | Paper | Code Link |
+|------------|------|-------|-----------|
+| ECCV | 2016 | [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf) | [GitHub (Unofficial)](https://github.com/how4rd/meshflow/blob/master/meshflowstabilizer.py) |
+| IEEE TIP | 2019 | [Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning](https://ieeexplore.ieee.org/document/8554287) | [GitHub (Unofficial)](https://github.com/btxviny/StabNet/blob/main/metrics.py) |
+| ICCVW/TOG | 2019 | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) |
+| ICCV | 2021 | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) |
+| WACV | 2022 | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |
+| ICCV | 2023 | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) |
 
 ## Stability Score Definitions
 
