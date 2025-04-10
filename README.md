@@ -10,19 +10,19 @@ A collection of "stability_score" metrics for evaluating video stabilization alg
 
 ## Public Implementations
 
-| Publication | Year | Paper | Code Link |
-|------------|------|-------|-----------|
-| ECCV | 2016 | [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf) | [GitHub (Unofficial)](https://github.com/how4rd/meshflow/blob/master/meshflowstabilizer.py) |
-| IEEE TIP | 2019 | [Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning](https://ieeexplore.ieee.org/document/8554287) | [GitHub (Unofficial)](https://github.com/btxviny/StabNet/blob/main/metrics.py) |
-| ICCVW/TOG | 2019 | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) |
-| ICCV | 2021 | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) |
-| WACV | 2022 | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |
-| ICCV | 2023 | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) |
+| Publication | Year | Paper | Code Link | Remarks |
+|------------|------|-------|-----------|---------|
+| ICCVW/TOG | 2019 | [DIFRINT: Deep Iterative Frame Interpolation for Full-Frame Video Stabilization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022415) | [GitHub (Official)](https://github.com/jinsc37/DIFRINT/blob/master/metrics.py) | Based on Bundled Camera Paths |
+| ICCV | 2021 | [FuSta: Hybrid Neural Fusion for Full-frame Video Stabilization](https://alex04072000.github.io/FuSta/) | [GitHub (Official)](https://github.com/alex04072000/FuSta/blob/main/metrics.py) | Based on DIFRINT |
+| WACV | 2022 | [Deep Online Fused Video Stabilization](https://zhmeishi.github.io/dvs/) | [GitHub (Official)](https://github.com/googleinterns/deep-stabilization/blob/master/dvs/metrics.py) |  |
+| ICCV | 2023 | [Minimum Latency Deep Online Video Stabilization](https://github.com/liuzhen03/NNDVS) | [GitHub (Official)](https://github.com/liuzhen03/NNDVS/blob/master/metrices.py) | Based on Bundled Camera Paths |
+
+*Remarks indicate which previous method the stability score implementation is based on. Empty cell means no specific base method is mentioned.*
 
 ## Stability Score Definitions
 
 ### Bundled Camera Paths (2013)
-**Paper**: [Bundled Camera Paths for Video Stabilization](http://www.liushuaicheng.org/SIGGRAPH2013/index.htm), TOG 2013
+**Project page**: [Bundled Camera Paths for Video Stabilization](http://www.liushuaicheng.org/SIGGRAPH2013/index.htm), TOG 2013
 
 This work introduced a frequency-based stability metric. Their approach:
 - Uses bundled camera paths to approximate true motion in the video
