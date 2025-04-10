@@ -17,8 +17,8 @@ A collection of "stability_score" metrics for evaluating video stabilization alg
 
 ## Stability Score Definitions
 
-### Bundled Camera Paths (2013)
-**Project page**: [Bundled Camera Paths for Video Stabilization](http://www.liushuaicheng.org/SIGGRAPH2013/index.htm), TOG 2013
+### Bundled Camera Paths for Video Stabilization
+**[Project page](http://www.liushuaicheng.org/SIGGRAPH2013/index.htm)**, TOG 2013
 
 This work introduced a frequency-based stability metric. Their approach:
 - Uses bundled camera paths to approximate true motion in the video
@@ -26,8 +26,8 @@ This work introduced a frequency-based stability metric. Their approach:
 - Evaluates the energy percentage of low-frequency components (2nd to 6th) over full frequencies (excluding DC component)
 - Takes the smallest measurement among translation and rotation as the final score
 
-### MeshFlow (2016)
-**Paper**: [MeshFlow: Minimum Latency Online Video Stabilization](http://www.liushuaicheng.org/eccv2016/meshflow.pdf), ECCV 2016
+### MeshFlow: Minimum Latency Online Video Stabilization (2016)
+**[Project page](http://www.liushuaicheng.org/eccv2016/index.html)**,  ECCV 2016
 
 This approach modifies the Bundled Camera Paths method:
 - Uses vertex profiles extracted from the stabilized video
